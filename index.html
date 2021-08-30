@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='stylesheet' href="fontawesome-free-5.15.4-web/css/all.css">
+    <!-- <script src="https://kit.fontawesome.com/f0a32733f5.js" crossorigin="anonymous"></script> -->
+    <link rel="stylesheet" href="swiper-bundle.min.css">
+    <link rel="stylesheet" href="style.css"> 
+    <title>Yap Guo Hao</title>
+</head>
+<body>
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">Yap Guo Hao</a>
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list grid">
+                    <li class="nav_item">
+                        <a href="#home" class="nav__link active-link">
+                            <i class="fas fa-home nav__icon"></i>
+                            Home
+                        </a>
+                    </li>
+                    <li class="nav_item">
+                        <a href="#about" class="nav__link">
+                            <i class="fas fa-user nav__icon"></i>
+                            About
+                        </a>
+                    </li>
+                    <li class="nav_item">
+                        <a href="#qualification" class="nav__link">
+                            <i class="fas fa-file-alt nav__icon"></i>
+                            Qualification
+                        </a>
+                    </li>
+                    <li class="nav_item">
+                        <a href="#services" class="nav__link">
+                            <i class="fas fa-briefcase nav__icon"></i>
+                            Services
+                        </a>
+                    </li>
+                    <li class="nav_item">
+                        <a href="#portfolio" class="nav__link">
+                            <i class="fas fa-images nav__icon"></i>
+                            Portfolio
+                        </a>
+                    </li>
+                    <li class="nav_item">
+                        <a href="#contact" class="nav__link">
+                            <i class="fas fa-address-card nav__icon"></i>
+                            Contact Me
+                        </a>
+                    </li>
+                </ul>
+                <i class="fas fa-times nav__close" id="nav-close"></i>
+            </div>
+
+            <div class="nav__btns">
+                <i class="far fa-moon change-theme" id="theme-button"></i>
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="fas fa-bars nav-bars"></i>
+                </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class='main'>
+        <section class='home section' id='home'>
+            <div class="home__container container grid">
+                <div class="home__content grid">
+                    <div class="home__social">
+                        <a href="https://www.linkedin.com/in/guo-hao-yap/" target='blank' class="home__social-icon">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="https://github.com/gvohao" target='blank' class="home__social-icon">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </div>
+
+                    <div class='home__img'>
+                        <svg class='home__blob' viewBox="0 0 600 550"
+                            xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1">
+                            <mask id="mask0" mask-type="alpha">
+                                <path
+                                    d="M212.8 -114.7C252.3 -54.3 244.8 41.3 201.5 112.2C158.2 183 79.1 229 -3.6 231.1C-86.3 233.2 -172.6 191.3 -206 126.3C-239.3 61.2 -219.7 -27.2 -176.5 -89.6C-133.4 -152 -66.7 -188.5 10 -194.3C86.6 -200 173.2 -175 212.8 -114.7"
+                                    ></path>
+                            </mask>
+                            <g mask="url(#mask0)" transform="translate(222.0913399048627 281.9573151694642)">
+                                <path
+                                    d="M212.8 -114.7C252.3 -54.3 244.8 41.3 201.5 112.2C158.2 183 79.1 229 -3.6 231.1C-86.3 233.2 -172.6 191.3 -206 126.3C-239.3 61.2 -219.7 -27.2 -176.5 -89.6C-133.4 -152 -66.7 -188.5 10 -194.3C86.6 -200 173.2 -175 212.8 -114.7"
+                                    ></path>
+                                    <image class='home__blob-img' x="-335" y="-235" xlink:href="img/IMG_3723.png"></image>
+                            </g>
+                        </svg>
+
+                    </div>
+                    <div class="home__data">
+                        <h1 class="home__title">Hi, I'm Guo Hao</h1>
+                        <h3 class="home__subtitle">Full Stack Software Engineer</h3>
+                        <p class="home__description">Banker turned Software Engineer, experienced in banking and technology with key interest in disruptive innovation, strategy and service.</p>
+                        <a href="#contact" class="button button--flex">
+                            Contact Me<i class="far fa-paper-plane button__icon"></i>
+                        </a>    
+                    </div>
+                </div>
+
+                <div class="home__scroll">
+                    <a href="#about" class="home__scroll-button button--flex">
+                        <i class="fas fa-mouse home__scroll-mouse"></i>
+                        <span class="home__scroll-name">Scroll down</span>
+                        <i class="fas fa-arrow-down home__scroll-arrow"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+            <!-- ABOUT -->
+        <section class="about section" id="about">
+            <h2 class="section__title">About Me</h2>
+            <span class="section__subtitle">My introduction</span>
+
+            <div class="about__container container grid">
+                <!-- <img src="" alt="" class="about__img"> -->
+                <div class="about__data">
+                    <p class="about__description">Full stack software engineer with proficiency in MERN stack, hands-on experience in numerous languages/ frameworks and ability to pick up new technologies quickly. </p>
+                    <div class="about__stack">
+                        <p class="about__stack-info">HTML <span class="plain">|</span> CSS <span class="plain">|</span> JavaScript <span class="plain">|</span> React <span class="plain">|</span> MongoDB <span class="plain">|</span> 
+                            Express <span class="plain">|</span> Node.js <span class="plain">|</span> PostgreSQL <span class="plain">|</span> Python <span class="plain">|</span> Django <span class="plain">|</span> Bash <span class="plain">|</span> Heroku <span class="plain">|</span> Git</p>
+                    </div>
+                    <div class="about__info">
+                        <div>
+                            <span class="about__info-title">480+</span>
+                            <span class="about__info-name">Hours of<br>professional training</span>
+                        </div>
+                        
+                        <div>
+                            <span class="about__info-title">04+</span>
+                            <span class="about__info-name">Completed<br>projects</span>
+                        </div>
+                        
+                    </div>
+
+                    <div class="about__buttons">
+                        <a download="" href="img/Resume_YapGuoHao.pdf" class="button button--flex">
+                            Resume<i class="fas fa-file-download button__icon"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Qualifications -->
+        <section class="qualification section" id="qualification">
+            <h2 class="section__title">Qualification</h2>
+            <span class="section__subtitle">My personal journey</span>
+
+            <div class="qualification__container container">
+                <div class="qualifications__tabs">
+                    <div class=" qualification__button button--flex qualification__active" data-target='#education'>
+                        <i class="fas fa-graduation-cap qualification__icon"></i>Education
+                    </div>
+
+                    <div class="qualification__button button--flex" data-target='#professional'>
+                        <i class="fas fa-briefcase qualification__icon"></i>Professional
+                    </div>
+                </div>
+                <div class="qualification__sections">
+
+                <!-- Education -->
+                        <!-- Qualification 1 -->
+                    <div class="qualification__content qualification__active" data-content id="education">
+                        <div class="qualification__data">
+                            <div>
+                                <h3 class="qualification__title">Full Stack Software Engineer</h3>
+                                <span class="qualification__subtitle">General Assembly Singapore</span>
+                                <div class="qualification__calender">
+                                    <i class="far fa-calendar-alt qualification__calender-icon"></i>Apr 2020 - Jul 2020
+                                </div>
+                            </div>
+
+                            <div>
+                                <span class="qualification__rounder"></span>
+                                <span class="qualification__line"></span>
+                            </div>
+                        </div>
+
+                        <!-- Qualification 2 -->
+                        <div class="qualification__data">
+                            <div></div>
+
+                            <div>
+                                <span class="qualification__rounder"></span>
+                                <span class="qualification__line"></span>
+                            </div>
+
+                            <div>
+                                <h3 class="qualification__title">Bachelor of Business <br> <span class="qualification_title-secondary">Banking and Finance</span></h3>
+                                <span class="qualification__subtitle">Nanyang Technological University</span>
+                                <div class="qualification__calender">
+                                    <i class="far fa-calendar-alt qualification__calender-icon"></i>Jul 2017 - Jul 2020
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                <!-- Professional -->
+                        <!-- Qualification 1 -->
+                    <div class="qualification__content" data-content id="professional">
+
+                        <div class="qualification__data">
+                            <div>
+                                <h3 class="qualification__title">Wealth Planning Manager</h3>
+                                <span class="qualification__subtitle">DBS Bank Ltd</span>
+                                <div class="qualification__calender">
+                                    <i class="far fa-calendar-alt qualification__calender-icon"></i>Jan 2020 - Apr 2021
+                                </div>
+                            </div>
+
+                            <div>
+                                <span class="qualification__rounder"></span>
+                                <span class="qualification__line"></span>
+                            </div>
+                        </div>
+
+                        <!-- Qualification 2 -->
+                        <div class="qualification__data">
+                            <div></div>
+
+                            <div>
+                                <span class="qualification__rounder"></span>
+                                <span class="qualification__line"></span>
+                            </div>
+
+                            <div>
+                                <h3 class="qualification__title">Wealth Management Intern</h3>
+                                <span class="qualification__subtitle">DBS Bank Ltd</span>
+                                <div class="qualification__calender">
+                                    <i class="far fa-calendar-alt qualification__calender-icon"></i>May 2019 - Jul 2019
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Qualification 3 -->
+                        <div class="qualification__data">
+                            <div>
+                                <h3 class="qualification__title">Events Marketing Intern</h3>
+                                <span class="qualification__subtitle">Triple Pte. Ltd.</span>
+                                <div class="qualification__calender">
+                                    <i class="far fa-calendar-alt qualification__calender-icon"></i>Apr 2018 - Jul 2018
+                                </div>
+                            </div>
+                            
+                            <div>
+                                <span class="qualification__rounder"></span>
+                                <span class="qualification__line"></span>
+                            </div>
+                        </div>
+
+                        <!-- Qualification 4 -->
+                        <div class="qualification__data">
+                            <div></div>
+
+                            <div>
+                                <span class="qualification__rounder"></span>
+                                <span class="qualification__line"></span>
+                            </div>
+
+                            <div>
+                                <h3 class="qualification__title">Strategic Communications Intern</h3>
+                                <span class="qualification__subtitle">United Overseas Bank Limited</span>
+                                <div class="qualification__calender">
+                                    <i class="far fa-calendar-alt qualification__calender-icon"></i>Apr 2017 - Jul 2017
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Qualification 5 -->
+                        <div class="qualification__data">
+                            <div>
+                                <h3 class="qualification__title">Compliance Intern</h3>
+                                <span class="qualification__subtitle">CA Indosuez (Switzerland) SA</span>
+                                <div class="qualification__calender">
+                                    <i class="far fa-calendar-alt qualification__calender-icon"></i>Jan 2017 - Mar 2017
+                                </div>
+                            </div>
+
+                            <div>
+                                <span class="qualification__rounder"></span>
+                                <span class="qualification__line"></span>
+                            </div>
+                            
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section class="porfolio section" id="portfolio">
+            <h2 class="section__title">Portfolio</h2>
+            <span class="portfolio__subtitle">Projects worked on</span>
+
+            <div class="portfolio__container container">
+                <div class="swiper-container mySwiper">
+                    <a class="project__button" href="https://my-financial-pal.herokuapp.com/" target='blank'>MyFinancialPal
+                        <i class="fas fa-external-link-alt project__icon"></i>
+                    </a>
+                    <p class="project__subtitle">Automation of financial planning for those who are ready to take personal finances into their own hands. 
+                        <br>Forward projection using CPI data from Singapore Department of Statistics.
+                    </p>    
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide"><img src="img/proj4/proj4_home.PNG"></div>
+                        <div class="swiper-slide"><img src="img/proj4/efund_landing.PNG"></div>
+                        <div class="swiper-slide"><img src="img/proj4/efundBudget.PNG"></div>
+                        <div class="swiper-slide"><img src="img/proj4/efundAmount.PNG"></div>
+                        <div class="swiper-slide"><img src="img/proj4/retireLanding.PNG"></div>
+                        <div class="swiper-slide"><img src="img/proj4/retireResult.PNG"></div>
+                        <div class="swiper-slide"><img src="img/proj4/profilePage.PNG"></div>
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                </div>
+            </div>
+
+            <div class="portfolio__container container">
+                <div class="swiper-container mySwiper">
+                    <a class="project__button" href="https://cryptopixels.herokuapp.com/" target='blank'>CryptoPixels
+                        <i class="fas fa-external-link-alt project__icon"></i>
+                    </a>
+                    <p class="project__subtitle">NFT trading platform with trading and tracked ownership of "Pixels" capabilities.
+                        <br>(Team project)
+                    </p>
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide"><img src="img/proj3/landing.PNG"></div>
+                        <div class="swiper-slide"><img src="img/proj3/market.PNG"></div>
+                        <div class="swiper-slide"><img src="img/proj3/pixelDetail.PNG"></div>
+                        <div class="swiper-slide"><img src="img/proj3/profile.PNG"></div>
+                        <div class="swiper-slide"><img src="img/proj3/ownership.PNG"></div>
+                        <div class="swiper-slide"><img src="img/proj3/ownershipListed.PNG"></div>
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                </div>
+            </div>
+
+            <div class="portfolio__container container">
+                <div class="swiper-container mySwiper">
+                    <a class="project__button" href="https://munnyapp.herokuapp.com/" target='blank'>MunnyApp
+                        <i class="fas fa-external-link-alt project__icon"></i>
+                    </a>
+                        <p class="project__subtitle">Stock chart application that contains elements of personal finance education.</p>
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide"><img src="img/proj2/landing.PNG"></div>
+                        <div class="swiper-slide"><img src="img/proj2/stockSearch.PNG "></div>
+                        <div class="swiper-slide"><img src="img/proj2/brokeragePage.PNG "></div>
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                </div>
+            </div>
+        </section>
+
+<!-- Contact -->
+        <section class="contact section" id="contact" >
+            <h2 class="section__title">Contact Me</h2>
+            <span class="section__subtitle">Say hi!</span>
+
+            <div class="contact__container container grid">
+                <form action='https://formspree.io/f/xjvjjkja' method='POST' id='my-form'>
+
+                    <div class="form-group">
+                        <label for="firstName">First Name</label>
+                        <input type="text" id='firstName' name='firstName'>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="lastName">Last Name</label>
+                        <input type="text" id='lastName' name='lastName'>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id='email' name='email' name="_replyto">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id='message' name='message' placeholder="Type message here..."></textarea>
+                    </div>
+
+                    <button type='submit'>Submit</button>
+
+                </form>
+            </div>
+            <div id="status"></div>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <div class="footer__bg">
+            <div class="footer__container container grid">
+                <div>
+                    <h1 class="footer__title">Guo Hao</h1>
+                    <span class="footer__subtitle">Full Stack Software Engineer</span>
+                </div>
+                <ul class="footer__links">
+                    <li>
+                        <a href="#about" class="footer__link">About</a>
+                    </li>
+                    <li>
+                        <a href="#qualification" class="footer__link">Qualification</a>
+                    </li>
+                    <li>
+                        <a href="#portfolio" class="footer__link">Portfolio</a>
+                    </li>
+                    <li>
+                        <a href="#contact" class="footer__link">Contact Me</a>
+                    </li>
+                </ul>
+
+                <div class="footer_socials">
+                    <a href="https://www.linkedin.com/in/guo-hao-yap/" class="footer__social">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="https://github.com/gvohao" class="footer__social">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </div>
+            </div>
+
+            <p class="footer__copy">&#169 Yap Guo Hao. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class="fas fa-arrow-up scrollup__icon"></i>
+    </a>
+
+    <script src="swiper-bundle.min.js"></script>
+    <script src="https://kit.fontawesome.com/f0a32733f5.js" ></script>    
+    <script src="main.js"></script>
+
+</body>
+</html>
